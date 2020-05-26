@@ -1,0 +1,6 @@
+framework module ValidicCore {
+  umbrella header "ValidicCore.h"
+
+  export *
+  module * { export * }
+}

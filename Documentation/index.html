@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>JSDoc: Home</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
+</head>
+
+<body>
+
+<div id="main">
+
+    <h1 class="page-title">Home</h1>
+
+    
+
+
+
+    
+
+
+    <h3> </h3>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <section>
+        <article><ul>
+<li><a href="#getting-started">Getting started</a>
+<ul>
+<li><a href="#linking">Linking</a>
+<ul>
+<li><a href="#automatic">Automatic</a></li>
+<li><a href="#manual">Manual</a></li>
+</ul>
+</li>
+<li><a href="#enable-healthkit">Enable HealthKit</a>
+<ul>
+<li><a href="#permission-usage-descriptions">Permission Usage Descriptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#usage">Usage</a>
+<ul>
+<li><a href="#subscriptions">Subscriptions</a>
+<ul>
+<li><a href="#set-subscriptions">Set Subscriptions</a></li>
+<li><a href="#current-subscriptions">Current Subscriptions</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>Getting started</h2>
+<pre class="prettyprint source lang-shell"><code>$ npm install react-native-validic-aggregator-ios --save`
+</code></pre>
+<p>or use yarn</p>
+<pre class="prettyprint source lang-shell"><code>$ yarn add react-native-validic-aggregator-ios`
+</code></pre>
+<h3>Linking</h3>
+<h4>Automatic</h4>
+<pre class="prettyprint source lang-shell"><code>react-native link react-native-validic-aggregator-ios
+</code></pre>
+<p><em>For iOS users using Pods</em>
+You still need to run <code>pod install</code> after running the above link command inside your <code>IOS</code> folder.</p>
+<h4>Manual</h4>
+<details>
+    <summary>iOS (via CocoaPods) RN >= 60</summary>
+<p>Add the following lines to your build targets in your <code>Podfile</code></p>
+<pre class="prettyprint source lang-ruby"><code>pod 'React', :path => '../node_modules/react-native'
+
+pod 'RNValidicHealthkit', :path => '../node_modules/react-native-validic-aggregator-ios'
+pod 'RNValidicSession', :path= => '../node_modules/react-native-validic-session'
+
+</code></pre>
+<p>Then run <code>pod install</code></p>
+</details>
+<details>
+    <summary>iOS (without CocoaPods)</summary>
+<p>In XCode, in the project navigator:</p>
+<ul>
+<li>Right click <em>Libraries</em></li>
+<li>Add Files to <em>[your project's name]</em></li>
+<li>Go to <code>node_modules/react-native-validic-aggregator-ios/ios</code></li>
+<li>Add the file <code>RNValidicHealthkit.xcodeproj</code></li>
+</ul>
+<p>In XCode, in the project navigator, select your project.</p>
+<ul>
+<li>Add the <code>libRNValidicHealthkit.a</code> from the <em>RNValidicHealthkit</em> project to your project's <em>Build Phases ➜ Link Binary With Libraries</em></li>
+<li>Click <code>.xcodeproj</code> file you added before in the project navigator and go the <em>Build Settings</em> tab. Make sure <em>All</em> is toggled on (instead of <em>Basic</em>).</li>
+<li>Look for <em>Header Search Paths</em> and make sure it contains both <code>$(SRCROOT)/../react-native/React</code> and <code>$(SRCROOT)/../../React</code></li>
+<li>Mark both as recursive (should be OK by default).</li>
+</ul>
+<p>In the General tab there will be a panel at the bottom of the screen labeled &quot;Embedded Binaries&quot;. You should see the frameworks added here.</p>
+<p><img src="img/Linked_Frameworks.png" alt="Linked Frameworks"></p>
+<p>Next copy 'copy-validicmobile.rb' to the <code>ios</code> folder of your project.</p>
+<p>Go to the build settings of your target. In the &quot;Build Phases&quot; tab add a new build phase by clicking the plus button at the top and selecting &quot;New Run Script Phase&quot;.</p>
+<p><img src="img/Build_Phase.png" alt="Build Phase"></p>
+<p>In the new phase's text area paste in <code>ruby copy-validicmobile.rb</code>.</p>
+<p><img src="img/Copy_Script.png" alt="Copy Script"></p>
+</details>
+<h3>Enable HealthKit</h3>
+<p>To enable use of HealthKit in the app, within the build settings of your target, select the 'Capabilities' tab and enable 'HealthKit'.</p>
+<p><img src="img/HealthKit_Entitlements.png" alt="HealthKit"></p>
+<p>If HealthKit is not enabled, an error is reported in the console log on app launch but will not report a error during build.</p>
+<h4>Permission Usage Descriptions</h4>
+<p>Usage descriptions have to be declared in project's <code>Info.plist</code> for permissions of the Camera, Bluetooth and to access and update HealthKit data.</p>
+<ul>
+<li>HEALTH_SHARE_USAGE_DESCRIPTION for NSHealthShareUsageDescription</li>
+<li>HEALTH_UPDATE_USAGE_DESCRIPTION for NSHealthUpdateUsageDescription</li>
+</ul>
+<h2>Usage</h2>
+<pre class="prettyprint source lang-javascript"><code>import ValidicHealthKit from 'react-native-validic-aggregator-ios';
+</code></pre>
+<h3>Subscriptions</h3>
+<p>To subscribe to HealthKit sample types:</p>
+<h4>Set Subscriptions</h4>
+<p>Calling <code>ValidicHealthKit.setSubscriptions(subscriptions)</code> will overwrite any existing subscriptions so it is important to always pass all of the subscriptions desired each time the method is called.
+To get a list of the currently subscribed data types use the method described in <a href="#Current_Subscriptions">Current subscriptions</a></p>
+<pre class="prettyprint source lang-js"><code>ValidicHealthKit.setSubscriptions([ValidicHealthKit.SampleTypes.HKQuantityTypeIdentifierStepCount]);
+</code></pre>
+<p>The function accepts an array of strings mapping to HealthKit sample types.</p>
+<h4>Current Subscriptions</h4>
+<p>To retrieve the list of Sample Types currently being observed</p>
+<pre class="prettyprint source lang-js"><code>ValidicHealthKit.getCurrentSubscriptions((subscriptions)=>{
+    if(!subscriptions.includes(ValidicHealthKit.SampleTypes.HKQuantityTypeIdentifierStepCount)){
+        subscriptions.push(ValidicHealthKit.SampleTypes.HKQuantityTypeIdentifierStepCount);
+        ValidicHealthKit.setSubscriptions(subscriptions);
+    }
+});
+</code></pre>
+<h4>Events</h4>
+<p>An event will be passed to the <code>ValidicHealthKit.eventEmitter</code> every time Healthkit processes a record type in the background.
+The event  will contain the count and type of record processed from healthkit.</p>
+<pre class="prettyprint source lang-js"><code>ValidicHealthKit.eventEmitter.addListener('validic:healthkit:onrecords', (summary){
+    console.log(summary.type) //type of record that corresponds to ValidicHealthKit.SummaryType
+    console.log(summary.count) // count of how many records of the corresponding Summary Type were processed by HealthKit
+})
+</code></pre>
+<p>Events should be removed as soon as they are no longer needed or the component observing them will be umounted</p>
+<pre class="prettyprint source lang-js"><code>componentWillUnmount(){
+    ValidicHealthKit.eventEmitter.removeAllListeners('validic:healthkit:onrecords');
+}
+</code></pre></article>
+    </section>
+
+
+
+
+
+
+</div>
+
+<nav>
+    <h2><a href="index.html">Home</a></h2><h3>Namespaces</h3><ul><li><a href="ValidicHealthKit.html">ValidicHealthKit</a></li></ul>
+</nav>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc/jsdoc">JSDoc 3.6.4</a> on Wed May 06 2020 20:39:27 GMT+0000 (Coordinated Universal Time)
+</footer>
+
+<script> prettyPrint(); </script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
