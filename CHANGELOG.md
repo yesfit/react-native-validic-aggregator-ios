@@ -1,5 +1,10 @@
 # Changelog 
 
+## 1.3.1 - 11-20-2020
+- Bundled native SDKs upgraded to:
+ - iOS: v1.12.5
+- Introduced iOS 14 support
+
 ## 1.3.0 - 05-06-2020
 - Updated iOS Native SDK relese version 1.12.1
 

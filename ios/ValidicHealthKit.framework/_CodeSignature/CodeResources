@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VLDHealthKitManager.h</key>
 		<data>
-		N6FT8XpdrEuVf7yEWA8DdqH+Yl8=
+		Ltb+QXUutpVsCHjIs7y0ZViUsv4=
 		</data>
 		<key>Headers/VLDHealthKitSubscription.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7y3g/0IqknWo2w3cDEMmPiBZ+OQ=
+		YKxp0k5WsSilTZxOymbgLCPcIV8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -31,11 +31,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N6FT8XpdrEuVf7yEWA8DdqH+Yl8=
+			Ltb+QXUutpVsCHjIs7y0ZViUsv4=
 			</data>
 			<key>hash2</key>
 			<data>
-			bQoXjWv/FQIbHPNDxDbrqZ+GiFn0NRl5rlEOvGtAGlE=
+			kZb3WhwGETgTvHR/Z4Tz2SUlVXpD98mfqtBia+MiFMs=
 			</data>
 		</dict>
 		<key>Headers/VLDHealthKitSubscription.h</key>

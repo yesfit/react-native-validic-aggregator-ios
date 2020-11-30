@@ -6,9 +6,12 @@
 //  Copyright © 2018 Validic. All rights reserved.
 //
 
+@class VLDAPIClient;
+
 @interface VLDSession ()
 
 @property (nonatomic, strong) VLDSessionData *sessionData;
+@property (nonatomic, strong) VLDAPIClient *apiClient;
 
 - (void)saveSessionData;
 

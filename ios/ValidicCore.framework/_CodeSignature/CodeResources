@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iIlpdTxAGnvWpvqDEJuhC10iwtU=
+		uPIISnvngIt4jF09t/3598DRBm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>PrivateHeaders/VLDAPIClient_Private.h</key>
 		<data>
-		wzkipaI+I41/NLT/+JEiGj3HcP0=
+		G2HCSXiiA7n2ODrucbWcRWuR9UY=
 		</data>
 		<key>PrivateHeaders/VLDBiometrics_Private.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>PrivateHeaders/VLDDebugLog.h</key>
 		<data>
-		pFiWOA8j2ZYrPh/MQBkMbbzlukQ=
+		v6B6jSp2NLrRod0REkmVe48kv28=
 		</data>
 		<key>PrivateHeaders/VLDModel_JSONSerializing.h</key>
 		<data>
@@ -122,11 +122,7 @@
 		</data>
 		<key>PrivateHeaders/VLDSession_Private.h</key>
 		<data>
-		pklbrLhSc5p9EM0XUj+xyG+vJ0U=
-		</data>
-		<key>devices.json</key>
-		<data>
-		+LMK7rajYogWBMFeIITRoo0GbeU=
+		FGpg9Yfr+V4klX1g7GTHsED4pZo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -366,11 +362,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wzkipaI+I41/NLT/+JEiGj3HcP0=
+			G2HCSXiiA7n2ODrucbWcRWuR9UY=
 			</data>
 			<key>hash2</key>
 			<data>
-			LA/jarCyBXER3mmX3RxLt4B84hRueK6FfjlnlSo7Xd4=
+			N9hR1VXzd14CfTqng5Ayongp1EtJlO9YHIgqlYtIzlE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/VLDBiometrics_Private.h</key>
@@ -388,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pFiWOA8j2ZYrPh/MQBkMbbzlukQ=
+			v6B6jSp2NLrRod0REkmVe48kv28=
 			</data>
 			<key>hash2</key>
 			<data>
-			BZKi9amCT3XqLrAAAqW9Hi/DdlBwv7dg+aZVMcHuLEg=
+			woGWUk3Sg5KZKf695niJpRdRsrNiR9Q35EtlgipN/Bs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/VLDModel_JSONSerializing.h</key>
@@ -443,22 +439,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pklbrLhSc5p9EM0XUj+xyG+vJ0U=
+			FGpg9Yfr+V4klX1g7GTHsED4pZo=
 			</data>
 			<key>hash2</key>
 			<data>
-			t5qs3mIxPTcOTdF6B4Ec6dhfOl+lztFnJ3LropIq5nI=
-			</data>
-		</dict>
-		<key>devices.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+LMK7rajYogWBMFeIITRoo0GbeU=
-			</data>
-			<key>hash2</key>
-			<data>
-			PMK8ebW6WwUhKjEc/GYhDOZ8h5G6BFkFoKmu2HyQyks=
+			Jm3A25fNGBfl63NvZvosw9XteaSHQhGzjAR0tPK8Ik4=
 			</data>
 		</dict>
 	</dict>

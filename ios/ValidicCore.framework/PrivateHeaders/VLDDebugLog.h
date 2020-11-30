@@ -19,11 +19,7 @@ extern void VLDLog(VLDLogMask mask, NSString *format, ...) NS_FORMAT_FUNCTION(2,
 #ifndef __dbg_h__
 #define __dbg_h__
 
-#ifdef DEBUG
 #define dlog(mask, M, ...) if (mask & DEBUGMASK) VLDLog(mask, @"%s " M, __PRETTY_FUNCTION__, ##__VA_ARGS__)
-#else
-#define dlog(mask, M, ...)
-#endif
 
 #endif
 

@@ -13,4 +13,6 @@
 
 - (void)uploadImage:(UIImage *)image completion:(void (^)(id responseObject, NSError *error))completion;
 
+@property (nonatomic, copy) NSString *baseURL;
+
 @end

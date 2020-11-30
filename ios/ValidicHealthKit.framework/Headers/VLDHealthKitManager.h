@@ -49,6 +49,18 @@ extern NSString * _Nonnull const kVLDHealthKitErrorDomain;
  
  The added subscriptions are saved to the VLDSession object and persisted through the life of the session.
  The completion block is called once the permission screen has been dismissed or immediately if permission
+ had been previously requested.
+ 
+ @param subscriptions An array of HKTypeIdentifiers VLDHealthKitManager to  listen for and upload
+ @param completion A completion block that gets called once authorization for access to the sample types is completed
+ 
+ */
+- (void)setSubscriptionsFromIdentifiers:(NSArray<__kindof NSString*> * _Nullable)subscriptions completion:(nullable void(^)(void))completion;
+
+/** Requests permission for and begins listening to HealthKit data for the specified subscriptions.
+ 
+ The added subscriptions are saved to the VLDSession object and persisted through the life of the session.
+ The completion block is called once the permission screen has been dismissed or immediately if permission
  had been previously requested. 
  
  @param subscriptions An array of HKSampleType objects for VLDHealthKitManager to listen for and upload
