@@ -10,6 +10,6 @@
 
 /** Base class for all model objects. */
 
-@interface VLDModel : NSObject <NSCoding, NSCopying>
+@interface VLDModel : NSObject <NSSecureCoding, NSCopying>
 
 @end

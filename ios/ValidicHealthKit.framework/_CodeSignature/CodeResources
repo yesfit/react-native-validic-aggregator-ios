@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KeiFzBLbiCFMQLpGR21wQB94YoA=
+		CTqizERYAt8PpDTWMEzTtR9DYgQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -29,10 +29,6 @@
 	<dict>
 		<key>Headers/VLDHealthKitManager.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ltb+QXUutpVsCHjIs7y0ZViUsv4=
-			</data>
 			<key>hash2</key>
 			<data>
 			kZb3WhwGETgTvHR/Z4Tz2SUlVXpD98mfqtBia+MiFMs=
@@ -40,10 +36,6 @@
 		</dict>
 		<key>Headers/VLDHealthKitSubscription.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			P/f+CEwEEOJMyUiJ3bSkyrCBysw=
-			</data>
 			<key>hash2</key>
 			<data>
 			H6Z4Q9Y9v5qHUnwghgU6i6Fil7+I6rktyQNbmkjkt5A=
@@ -51,10 +43,6 @@
 		</dict>
 		<key>Headers/ValidicHealthKit.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2D5Swmd19cus7a4ShVdSV9B5NpY=
-			</data>
 			<key>hash2</key>
 			<data>
 			tpW77E+6L1RC8q7nhTP/ArmONHPvOltMaVtgQSz3UAo=
@@ -62,10 +50,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0d6hQfxIWb82L6NX9ew/NMehLqg=
-			</data>
 			<key>hash2</key>
 			<data>
 			T/Bf3d3HUnzXC8t089UdSdjnvzk9ilRvIVoK39EIgrE=

@@ -30,7 +30,7 @@
 		</data>
 		<key>Headers/VLDLogging.h</key>
 		<data>
-		DZ8LnTvkdoSsYU10K4JS5TAYNs8=
+		go+Yuv8IRIQpuyJihrE3xteHZ8c=
 		</data>
 		<key>Headers/VLDMeasurement.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/VLDModel.h</key>
 		<data>
-		K+7h2jJ1WK8IJuBhEXs3sVU/was=
+		hHVqo947FIEZP+ZQMCIigysNCGE=
 		</data>
 		<key>Headers/VLDNutrition.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		S5575wR0razrp7mSYj8U3pJkovg=
+		Lj1XkKIAKoAb4JxRRpfc/3btuiU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -129,10 +129,6 @@
 	<dict>
 		<key>Headers/VLDAPIClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			fQ67y19wD/mV70jIkk498vYuOcY=
-			</data>
 			<key>hash2</key>
 			<data>
 			YSdzB212Q6dDZTP4HI8iACwL3rtFnqYlLMpmBcCWqEI=
@@ -140,10 +136,6 @@
 		</dict>
 		<key>Headers/VLDBiometrics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9iBdLSAoz9S3XfFEHQKRQdrQh9k=
-			</data>
 			<key>hash2</key>
 			<data>
 			S+XaRLS+hxsATBJokyg6iyLIbHxtdX53z4vj+ANq/S4=
@@ -151,10 +143,6 @@
 		</dict>
 		<key>Headers/VLDDiabetes.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			x2VZGTFiVZCd+Jy5mHtKw3Zl5aM=
-			</data>
 			<key>hash2</key>
 			<data>
 			GDD12JVlV2wsEgd4WQmlDG5H7Larp1G2zxltuPZsMuM=
@@ -162,10 +150,6 @@
 		</dict>
 		<key>Headers/VLDFitness.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AGLgJ+e/L+fQmcCpRZtQpeUKLGk=
-			</data>
 			<key>hash2</key>
 			<data>
 			UxG1VEWtD8edfC746IHpGngW/DSjjLDiUb3lPL+aN/Q=
@@ -173,10 +157,6 @@
 		</dict>
 		<key>Headers/VLDFormatter.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			YhwpVW1VyeJwOpHEakAt+OGt7Go=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iFAtrxfDcCg4o71VARPSjDUrH9JVo7ZH98mH+xq/YI=
@@ -184,10 +164,6 @@
 		</dict>
 		<key>Headers/VLDIntraDay.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7kgrSxiFqt6+gqFXmREWihR/DnA=
-			</data>
 			<key>hash2</key>
 			<data>
 			lr+ysecazL5gA1Bgl7bnCFFE8Q3Fh90NJTV/+PhDUi0=
@@ -195,21 +171,13 @@
 		</dict>
 		<key>Headers/VLDLogging.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DZ8LnTvkdoSsYU10K4JS5TAYNs8=
-			</data>
 			<key>hash2</key>
 			<data>
-			DibbF9H9guImxxGD2CNIK9QYFnlTlQsOxjZ/EUaIQFE=
+			pUdlqGVt8+PPB5AYv7GlrRXXlfMXCCiGwB30E93tLHU=
 			</data>
 		</dict>
 		<key>Headers/VLDMeasurement.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FdHNp9a8PFJDHJDsN0Klkvww/Mg=
-			</data>
 			<key>hash2</key>
 			<data>
 			0nK/xqczUU8n+pUVXE1zpBnjOIFJhodY6iHFzv2q4wY=
@@ -217,10 +185,6 @@
 		</dict>
 		<key>Headers/VLDMedia.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			XyCVBkuZMDVXVQY/xImdrKdPvVc=
-			</data>
 			<key>hash2</key>
 			<data>
 			dNLJIe9WoOhWcQpvkMAsOagk8pI7RicID2aJ5IJ+uV4=
@@ -228,21 +192,13 @@
 		</dict>
 		<key>Headers/VLDModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			K+7h2jJ1WK8IJuBhEXs3sVU/was=
-			</data>
 			<key>hash2</key>
 			<data>
-			AeONivt+UUipUyCJzwyV3HNYk/OriRX8swpTCw8JINs=
+			54at341D3/iTquYpxcxVyn99feCG5ARjalukCIFTCKw=
 			</data>
 		</dict>
 		<key>Headers/VLDNutrition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			sBTt3jQ5Xp4EOl0LfRtkeFWMIpM=
-			</data>
 			<key>hash2</key>
 			<data>
 			DAgBKVieOg1BfP9ZBTB4YsH0WzYTnsEYB1vx/tya0zw=
@@ -250,10 +206,6 @@
 		</dict>
 		<key>Headers/VLDPeripheral.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			y534rcwrTDp3c+DdpkM97qZWJ+w=
-			</data>
 			<key>hash2</key>
 			<data>
 			8HgHIEOQ7UO7DQzV5zO/+FaRcgtiSR4eR6FR63SvwBw=
@@ -261,10 +213,6 @@
 		</dict>
 		<key>Headers/VLDRecord.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/ZZazAhoWgS0GLCirBYZkxc9b5A=
-			</data>
 			<key>hash2</key>
 			<data>
 			H1ElUjoH+H8MKM3LJcma1eRd1NxxGJMarcI2u9rL3jk=
@@ -272,10 +220,6 @@
 		</dict>
 		<key>Headers/VLDRoutine.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uj4NXZvsypYbR52ICSTUIW82lvU=
-			</data>
 			<key>hash2</key>
 			<data>
 			YvmgIj9YZVMMOama4TQcDolJUBPTkBVeCkSYle79zco=
@@ -283,10 +227,6 @@
 		</dict>
 		<key>Headers/VLDServerResponse.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			kKE79FAFpqq91lJH+bpfy7MWHsc=
-			</data>
 			<key>hash2</key>
 			<data>
 			xCsewg+WsTYIW7AzUT7HY+EoVHv48v5iV3rkhhqt7ns=
@@ -294,10 +234,6 @@
 		</dict>
 		<key>Headers/VLDSession.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r1mELa+lj8KC3Qh6kT4SB9Huwdg=
-			</data>
 			<key>hash2</key>
 			<data>
 			dJHoWSxFR9ogENpHqC5zyC13v9tLvNqdoSGV/BFFFhs=
@@ -305,10 +241,6 @@
 		</dict>
 		<key>Headers/VLDSleep.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yJrArX+51Gy6kLNyUuBFkZ0F4i4=
-			</data>
 			<key>hash2</key>
 			<data>
 			LJW1UbQJFKWnroCTS3phHlR+4MlHduIR7rwdDW9ufiY=
@@ -316,10 +248,6 @@
 		</dict>
 		<key>Headers/VLDUser.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0add/q6w+QthVGJc15WrShHZIgY=
-			</data>
 			<key>hash2</key>
 			<data>
 			y549z5S4W+Kga1UqxZ+7vwlSk9WxBaHPncqMaPaQvcc=
@@ -327,10 +255,6 @@
 		</dict>
 		<key>Headers/VLDWeight.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lVf82B3+NRyUKm+zxNE1Bm2n1dg=
-			</data>
 			<key>hash2</key>
 			<data>
 			nwz9pxs47shkHhiNi3u2Z63Hwf+OI3NEiYitxhkCMp0=
@@ -338,10 +262,6 @@
 		</dict>
 		<key>Headers/ValidicCore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ME5XiXiJC/j68fWaTfOXi4rPSk4=
-			</data>
 			<key>hash2</key>
 			<data>
 			CT2yCZ0PXHo7to0zUJrlFpdiBHX7EwaRVCwrrMX2gXA=
@@ -349,10 +269,6 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TbdqoCF5OHdqRLsIlct3zbTRFiA=
-			</data>
 			<key>hash2</key>
 			<data>
 			S6GOm7bip4/tZLhXF+ddvJUDkAHo5hFgLzjyrvRLpKM=
@@ -360,10 +276,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDAPIClient_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			G2HCSXiiA7n2ODrucbWcRWuR9UY=
-			</data>
 			<key>hash2</key>
 			<data>
 			N9hR1VXzd14CfTqng5Ayongp1EtJlO9YHIgqlYtIzlE=
@@ -371,10 +283,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDBiometrics_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rJLtyatwK5F3sXfACq1JxdsN2Ss=
-			</data>
 			<key>hash2</key>
 			<data>
 			nrtzLzR5QwFf3JCQyDjmYUtzlv6euUSi7hpLVx+MJDU=
@@ -382,10 +290,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDDebugLog.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			v6B6jSp2NLrRod0REkmVe48kv28=
-			</data>
 			<key>hash2</key>
 			<data>
 			woGWUk3Sg5KZKf695niJpRdRsrNiR9Q35EtlgipN/Bs=
@@ -393,10 +297,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDModel_JSONSerializing.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aPqXNZwBwruriZy0ccB2CUsaDt0=
-			</data>
 			<key>hash2</key>
 			<data>
 			JDFU2qMO1iOf7EGptx74KTZvh59DY0H2MiBwMwttzWg=
@@ -404,10 +304,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDPeripheral_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TYuppzYdlNJ5K3E1PNzMrDklzgI=
-			</data>
 			<key>hash2</key>
 			<data>
 			sRinGe+h8qWsF4VEeqkcZSI99mX9QkDM90mFN1uBZa8=
@@ -415,10 +311,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDRecord_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			aFNzAmmXKwnpwtNHX1nMEwQjnAo=
-			</data>
 			<key>hash2</key>
 			<data>
 			IfxyAGM2i5T1Voi57QHR/RIo95/dkZO7YUk9xA5ECkQ=
@@ -426,10 +318,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDSessionData.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			JVf3n58piP1p0QYy/Mpb1o48mfQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			ybB/ouR9jOiaj+vP8YqCWuK98cjXJe5zRVy+3UIKJmc=
@@ -437,10 +325,6 @@
 		</dict>
 		<key>PrivateHeaders/VLDSession_Private.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FGpg9Yfr+V4klX1g7GTHsED4pZo=
-			</data>
 			<key>hash2</key>
 			<data>
 			Jm3A25fNGBfl63NvZvosw9XteaSHQhGzjAR0tPK8Ik4=
