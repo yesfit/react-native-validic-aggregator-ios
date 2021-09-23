@@ -1,0 +1,6 @@
+framework module ValidicHealthKit {
+  umbrella header "ValidicHealthKit.h"
+
+  export *
+  module * { export * }
+}

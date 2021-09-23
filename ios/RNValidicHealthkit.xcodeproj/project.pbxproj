@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B3E7B58A1CC2AC0600A0062D /* RNValidicHealthkit.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNValidicHealthkit.m */; platformFilter = ios; };
+		C334B5AF2649D45F003B4C7E /* ValidicHealthKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C334B5AE2649D45F003B4C7E /* ValidicHealthKit.xcframework */; platformFilter = ios; };
 		C334D8E8221CA38B00594691 /* RCTConvert+SubscriptionsEnums.m in Sources */ = {isa = PBXBuildFile; fileRef = C334D8E7221CA38B00594691 /* RCTConvert+SubscriptionsEnums.m */; platformFilter = ios; };
-		C3CE7CF123A7D42900CFB16D /* ValidicHealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3CE7CF023A7D42900CFB16D /* ValidicHealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +28,9 @@
 		134814201AA4EA6300B7C361 /* libRNValidicHealthkit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNValidicHealthkit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNValidicHealthkit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNValidicHealthkit.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNValidicHealthkit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNValidicHealthkit.m; sourceTree = "<group>"; };
+		C334B5AE2649D45F003B4C7E /* ValidicHealthKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ValidicHealthKit.xcframework; sourceTree = "<group>"; };
 		C334D8E6221CA38B00594691 /* RCTConvert+SubscriptionsEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCTConvert+SubscriptionsEnums.h"; sourceTree = "<group>"; };
 		C334D8E7221CA38B00594691 /* RCTConvert+SubscriptionsEnums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCTConvert+SubscriptionsEnums.m"; sourceTree = "<group>"; };
-		C3CE7CF023A7D42900CFB16D /* ValidicHealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ValidicHealthKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3CE7CF123A7D42900CFB16D /* ValidicHealthKit.framework in Frameworks */,
+				C334B5AF2649D45F003B4C7E /* ValidicHealthKit.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +56,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-				C3CE7CF023A7D42900CFB16D /* ValidicHealthKit.framework */,
+				C334B5AE2649D45F003B4C7E /* ValidicHealthKit.xcframework */,
 				C3E8478C23A16AC300915D05 /* Classes */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);

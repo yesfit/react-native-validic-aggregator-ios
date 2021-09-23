@@ -13,11 +13,10 @@ Pod::Spec.new do |s|
   s.license      = { :file => "LICENSE" }
   s.author       = ["Validic Mobile"]
   s.platform     = :ios, "10.0"
-  s.source       = { :git => 'https://github.com/yesfit/react-native-validic-aggregator-ios.git', :tag => "v#{s.version}" }
+  s.source       = { :http => 'file:' + __dir__ + '/'}
 
   s.source_files =  "ios/Classes/*.{h,m}"
-  s.ios.vendored_frameworks = 'ios/ValidicHealthKit.framework'
-  s.frameworks = "ValidicHealthKit", "ValidicCore"
+  s.ios.vendored_frameworks = 'ios/ValidicHealthKit.xcframework'
   s.requires_arc = true
 
   s.dependency "React"
